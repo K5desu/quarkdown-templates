@@ -1,0 +1,16 @@
+{
+	"name": "Quarkdown Dev",
+	"image": "mcr.microsoft.com/devcontainers/java:1-17-bookworm",
+	"postCreateCommand": "curl -fsSL https://raw.githubusercontent.com/quarkdown-labs/get-quarkdown/refs/heads/main/install.sh | sudo env \"PATH=$PATH\" bash",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"quarkdown.quarkdown-vscode",
+				"GitHub.copilot"
+			]
+		}
+	},
+	"mounts": [
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,readonly,type=bind,consistency=cached"
+	]
+}
