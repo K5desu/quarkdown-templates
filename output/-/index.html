@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="ja">
+<head>
+    <meta name="generator" content="Quarkdown">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>卒業論文見本</title>
+    <script src="./script/quarkdown.js"></script>
+    <script>const capabilities = window.quarkdownCapabilities</script>
+    <script>window.PagedConfig = {auto: false};</script>
+    <script src="https://unpkg.com/pagedjs@0.4.3/dist/paged.polyfill.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./theme/theme.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.9.0/highlightjs-line-numbers.min.js"></script>
+    <script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css"/>
+    <script>capabilities.code = true;</script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+    <script>
+        capabilities.math = true;
+
+        window.texMacros = {
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+    <script>capabilities.mermaid = true;</script>
+
+    <style>
+
+        body {
+        }
+
+        .page-break {
+            break-before: always;
+        }
+
+        .quarkdown-plain .page-break {
+            break-before: avoid;
+            break-after: avoid;
+        }
+
+        body.quarkdown-plain.quarkdown-plain {
+            margin: 1.5cm 1.5cm 1.5cm 1.5cm;
+        }
+
+        body.quarkdown-slides.quarkdown-slides .reveal {
+            width: 210.0mm;
+            height: 297.0mm;
+        }
+
+        @page {
+            size: 210.0mm 297.0mm;
+            margin: 1.5cm 1.5cm 1.5cm 1.5cm;
+        }
+
+        p {
+        }
+    </style>
+    <script>
+        const doc = new PagedDocument();
+        prepare(doc);
+    </script>
+</head>
+<body class="quarkdown quarkdown-paged">
+<div class="page-margin-content page-margin-bottom-center" data-on-left-page="bottom-center" data-on-right-page="bottom-center"><span></span></div><style data-hidden="">.quarkdown h1 {font-size: 1.5rem !important;}
+.quarkdown h2 {font-size: 1.3rem !important;}
+.quarkdown h3 {font-size: 1.15rem !important;}
+.quarkdown h4 {font-size: 1.05rem !important;}
+/* Cross-reference: show Japanese style for section references */
+/* Top-level sections (no dot): 第1章 */
+.quarkdown .cross-reference[data-localized-kind="セクション"][data-location]:not([data-location*="."])::before {
+    content: "第" attr(data-location) "章" !important;
+}
+/* Sub-sections (has dot): 第2.1節 */
+.quarkdown .cross-reference[data-localized-kind="セクション"][data-location*="."]::before {
+    content: "第" attr(data-location) "節" !important;
+}</style><div style="justify-content: flex-start; align-items: center;" class="stack stack-column"><span class="size-normal">2026年度 卒業論文</span><div style="height: 5.0mm;"></div><span class="size-large" style="font-weight: bold;">Notionデータを対象とした</span><span class="size-large" style="font-weight: bold;">ベクトル検索システム</span><span class="size-large" style="font-weight: bold;">「NotionFinder」の開発</span><span></span></div><div style="justify-content: flex-start; align-items: flex-end;" class="stack stack-column"><span>龍谷大学先端理工学部 数理・情報科学課程</span><span>Y220010 田代 圭梧</span><span>指導教員 佐野 彰</span></div><div style="justify-content: flex-start; align-items: center;" class="stack stack-column"><span class="size-normal" style="font-weight: bold;">概要</span></div><p>まだ</p><p>書かない</p><div class="page-break" data-hidden=""></div><div style="height: 5.0cm;"></div><div style="justify-content: flex-start; align-items: center;" class="stack stack-column"><span>2026年度 卒業論文</span><div style="height: 10.0mm;"></div><span class="size-large" style="font-weight: bold;">Notionデータを対象とした</span><span class="size-large" style="font-weight: bold;">ベクトル検索システム</span><span class="size-large" style="font-weight: bold;">「NotionFinder」の開発</span><span class="size-normal"></span></div><div style="height: 10.0cm;"></div><div style="justify-content: flex-start; align-items: center; gap: 3.0mm;" class="stack stack-column"><span>龍谷大学先端理工学部 数理・情報科学課程</span><span>Y220010 田代 圭梧</span><span>指導教員 佐野 彰</span></div><p><div class="page-break" data-hidden=""></div><h1 id="table-of-contents">目次</h1><nav data-role="table-of-contents"><ol><li data-location="1"><a href="#sec:intro">はじめに</a><ol><li data-location="1.1"><a href="#研究背景">研究背景</a></li><li data-location="1.2"><a href="#本研究の目的">本研究の目的</a></li></ol></li><li data-location="2"><a href="#sec:method">システム概要</a><ol><li data-location="2.1"><a href="#問題設定">問題設定</a></li><li data-location="2.2"><a href="#改良手法">改良手法</a></li></ol></li><li data-location="3"><a href="#sec:experiment">数値実験</a><ol><li data-location="3.1"><a href="#実験条件">実験条件</a></li></ol></li><li data-location="4"><a href="#sec:result">結果</a></li><li data-location="5"><a href="#sec:discussion">考察</a></li><li data-location="6"><a href="#sec:conclusion">結論</a></li><li><a href="#謝辞">謝辞</a></li><li><a href="#付録">付録</a></li></ol></nav> </p><div class="page-break" data-hidden=""></div><h1 id="sec:intro" data-location="1">はじめに</h1><div class="page-number-reset" data-start="1" data-hidden=""></div><div class="page-margin-content page-margin-bottom-center" data-on-left-page="bottom-center" data-on-right-page="bottom-center"><span class="current-page-number">-</span></div><h2 id="研究背景" data-location="1.1">研究背景</h2><h3 id="notionの普及と情報量の増大">Notionの普及と情報量の増大</h3><p>近年、個人のタスク管理から企業のナレッジ共有に至るまで、クラウドベースのコラボレーションツールの利用が急速に拡大している。
+中でも Notion Labs Inc. が提供する「Notion」は、ドキュメント作成、データベース管理、タスク管理などを一元化できる「オールインワン・ワークスペース」として、世界中で多くのユーザーを獲得している [???]。
+Notion の柔軟なデータベース機能は、ユーザーによる自由度の高い情報蓄積を可能にする一方で、長期的な運用に伴いワークスペース内のデータ量は膨大かつ複雑化する傾向にある。</p><h3 id="既存検索機能の課題">既存検索機能の課題</h3><p>蓄積された膨大なデータから必要な情報にアクセスするためには、効率的な検索機能が不可欠である。
+しかし、Notion に標準搭載されている検索機能は、基本的にキーワードマッチング（字句検索）に基づいている。
+この手法は、クエリとドキュメント内の単語が完全に一致する場合においては有効であるが、同義語や表記揺れ、あるいは文脈的な意味の類似性を考慮することはできない「語彙の不一致（Vocabulary Mismatch）」の問題を抱えている [???]。
+そのため、ユーザーは正確なキーワードを記憶していなければ目的の情報に辿り着けず、情報の再利用性が著しく低下するという課題がある。</p><h3 id="notion-ai-の制約">Notion AI の制約</h3><p>こうした課題に対し、Notion は大規模言語モデル（LLM）を活用した「Notion AI」を導入し、自然言語による質問応答機能を提供している。
+しかし、Notion AI を制限なく利用するには追加のコストが発生するため、全てのユーザーにとって導入が容易なわけではない。
+さらに重要な課題として、Web共有（外部公開）における制約が挙げられる。
+Notion AI は基本的にログインユーザーのワークスペース内での利用を前提としており、Notionで構築したナレッジベースをWebサイトとして外部公開し、そこで不特定多数の訪問者にAI検索を提供するといった柔軟な運用は困難である。</p><h2 id="本研究の目的" data-location="1.2">本研究の目的</h2><p>本研究では、Notion 内に蓄積されたデータを対象とし、文脈や意味に基づいた検索（セマンティック検索）を可能にするWebプラットフォーム「NotionFinder」の設計および開発を行う。
+具体的には、Notion API を通じて取得したデータをベクトル化し、ユーザーの検索クエリとの意味的な類似度を計算することで、キーワードが完全に一致しなくとも関連性の高いドキュメントを抽出するシステムを構築する。</p><p>本研究の主な目的は以下の2点である。</p><ol><li><strong>セマンティック検索の実現</strong>：キーワード検索では拾いきれない、文脈や意図を汲んだ検索体験を提供し、情報の再利用性を向上させること。</li><li><strong>Web共有可能な検索基盤の構築</strong>：Notion 本体の認証や有料プランの制約に依存せず、外部公開されたWebアプリケーション上で、安価かつ高速に高度な検索機能を利用可能にすること。</li></ol><p>次章以降では、関連技術の解説、NotionFinder のシステム設計、および実装と評価について述べる。</p><div class="page-break" data-hidden=""></div><h1 id="sec:method" data-location="2">システム概要</h1><h2 id="問題設定" data-location="2.1">問題設定</h2><p><span class="cross-reference" data-location="(2.1)"></span> の最小化問題を考える：</p><formula data-block="" data-location="(2.1)">\min_{x \in \mathbb{R}^n} f(x)</formula><p>ここで <formula>f(x)</formula> は連続微分可能な関数とし、勾配降下法（Gradient Descent）は次式 <span class="cross-reference" data-location="(2.2)"></span> で表される。</p><formula data-block="" data-location="(2.2)">x_{k+1} = x_k - \eta_k \nabla f(x_k)</formula><p>ただし <formula>\eta_k</formula> は学習率である。</p><h2 id="改良手法" data-location="2.2">改良手法</h2><p>本研究では、勾配の大きさに応じて動的に学習率を調整する「適応勾配法（Adaptive Gradient Method）」を提案する。  その概要を <span class="cross-reference" data-localized-kind="リスト">アルゴリズム 1: Adaptive Gradient Method</span> に示す。</p><figure><pre><code class="language-python"># Adaptive Gradient Method
+def adaptive_gradient(f, grad_f, x0, eta0, epsilon=1e-6, max_iter=1000):
+    x = x0
+    eta = eta0
+    for k in range(max_iter):
+        g = grad_f(x)
+        if np.linalg.norm(g) &lt; epsilon:
+            break
+        eta = eta0 / (1 + 0.1 * np.linalg.norm(g))
+        x = x - eta * g
+    return x</code></pre><figcaption class="caption-bottom" data-localized-kind="リスト">アルゴリズム 1: Adaptive Gradient Method</figcaption></figure><p>上記アルゴリズムでは、勾配ノルムに応じて学習率を減衰させることで、収束の安定性を高めている。
+このアプローチは、Adam [5] や RMSProp [???] のような既存の適応学習率法と共通の思想を持つ（詳細は <a href="#sec:discussion"><span class="cross-reference" data-location="5" data-localized-kind="セクション"></span></a>）。</p><div class="page-break" data-hidden=""></div><h1 id="sec:experiment" data-location="3">数値実験</h1><h2 id="実験条件" data-location="3.1">実験条件</h2><p>提案手法の有効性を確認するため、Rosenbrock 関数 <span class="cross-reference" data-location="(3.1)"></span> [7]</p><formula data-block="" data-location="(3.1)">f(x, y) = (1 - x)^2 + 100(y - x^2)^2</formula><p>を対象として実験を行った。実験は、手順 [???] の方法を用いて <span class="cross-reference" data-location="3.1" data-localized-kind="テーブル"></span> のパラメータ設定で実施した。</p><figure id="figure-3.1"><pre class="mermaid fill-height">flowchart TD
+    A([Start]) --&gt; B[Enter username and password]
+    B --&gt; C{Correct?}
+    C -- Yes --&gt; D[Redirect to dashboard]
+    C -- No --&gt; E[Show error message]
+    D --&gt; F([End])
+    E --&gt; F</pre><figcaption class="caption-bottom" data-location="3.1" data-localized-kind="図">My Mermaid diagram.</figcaption></figure><p>パラメータ設定を表 <span class="cross-reference" data-location="3.1" data-localized-kind="テーブル"></span> に示す。</p><table id="table-3.1"><thead><tr><th>パラメータ</th><th>値</th><th>説明</th></tr></thead><tbody><tr><td>期点 <formula>(x_0, y_0)</formula></td><td>(−1.2, 1.0)</td><td>標準設定</td></tr><tr><td>学習率 <formula>\eta_0</formula></td><td>0.01</td><td>初期値</td></tr><tr><td>最大反復回数</td><td>1000</td><td>収束条件まで</td></tr></tbody><caption class="caption-bottom" data-location="3.1" data-localized-kind="テーブル">実験パラメータ設定</caption></table><div class="page-break" data-hidden=""></div><h1 id="sec:result" data-location="4">結果</h1><p>提案手法の結果を [???] [???] に示す。従来の勾配降下法に比べ、提案手法は初期段階での収束が速いことが確認できた。 [???] は四半期別売上推移を示す。</p><figure id="figure-4.1"><pre class="mermaid fill-height">xychart-beta
+	line [0.0, 0.0, 0.0]
+</pre><figcaption class="caption-bottom" data-location="4.1" data-localized-kind="図">四半期別売上推移</figcaption></figure><figure id="figure-4.2"><pre class="mermaid fill-height">xychart-beta
+	x-axis &quot;Months&quot;
+	y-axis &quot;Revenue&quot; 100 --&gt; 600.0
+	bar [250.0, 500.0, 350.0, 450.0, 400.0, 500.0, 600.0]
+	line [250.0, 500.0, 350.0, 450.0, 400.0, 500.0, 600.0]
+</pre><figcaption class="caption-bottom" data-location="4.2" data-localized-kind="図">&quot;結果の嘘グラフ&quot;</figcaption></figure><figure id="figure-4.3"><pre class="mermaid fill-height">xychart-beta
+	line [0.0, 6.931471824645996, 10.986123085021973, 13.862943649291992, 16.094379425048828, 17.91759490966797, 19.4591007232666, 20.794414520263672, 21.972246170043945, 23.02585220336914, 23.978954315185547, 24.84906768798828, 25.649492263793945, 26.390573501586914, 27.080501556396484, 27.725887298583984, 28.332134246826172, 28.903717041015625, 29.44438934326172, 29.95732307434082, 30.44522476196289, 30.910425186157227, 31.354942321777344, 31.78053855895996, 32.188758850097656, 32.580963134765625, 32.958370208740234, 33.322044372558594, 33.67295837402344, 34.0119743347168, 34.33987045288086, 34.6573600769043, 34.9650764465332, 35.26360321044922, 35.55348205566406, 35.83518981933594, 36.10917663574219, 36.37586212158203, 36.635616302490234, 36.8887939453125, 37.135719299316406, 37.3766975402832, 37.612003326416016, 37.841896057128906, 38.066627502441406, 38.286415100097656, 38.5014762878418, 38.71200942993164, 38.9182014465332, 39.12023162841797, 39.31825637817383, 39.51243591308594, 39.702919006347656, 39.88983917236328, 40.073333740234375, 40.253517150878906, 40.430511474609375, 40.60443115234375, 40.77537536621094, 40.94344711303711, 41.10873794555664, 41.27134323120117, 41.43134689331055, 41.588829040527344, 41.743873596191406, 41.896549224853516, 42.04692840576172, 42.19507598876953, 42.341064453125, 42.48495101928711, 42.626800537109375, 42.76666259765625, 42.90459442138672, 43.040653228759766, 43.17488098144531, 43.307334899902344, 43.438053131103516, 43.56708908081055, 43.69447708129883, 43.82026672363281, 43.94449234008789, 44.06719207763672, 44.18840408325195, 44.30816650390625, 44.426513671875, 44.54347229003906, 44.659080505371094, 44.77336883544922, 44.8863639831543, 44.99809646606445, 45.10859680175781, 45.21788787841797, 45.32599639892578, 45.43294906616211, 45.53876876831055, 45.64348220825195, 45.747108459472656, 45.84967803955078, 45.95119857788086, 46.05170440673828]
+	line [0.009999999776482582, 0.03999999910593033, 0.09000000357627869, 0.1599999964237213, 0.25, 0.36000001430511475, 0.49000000953674316, 0.6399999856948853, 0.8100000023841858, 1.0, 1.2100000381469727, 1.440000057220459, 1.690000057220459, 1.9600000381469727, 2.25, 2.559999942779541, 2.890000104904175, 3.240000009536743, 3.609999895095825, 4.0, 4.409999847412109, 4.840000152587891, 5.289999961853027, 5.760000228881836, 6.25, 6.760000228881836, 7.289999961853027, 7.840000152587891, 8.40999984741211, 9.0, 9.609999656677246, 10.239999771118164, 10.890000343322754, 11.5600004196167, 12.25, 12.960000038146973, 13.6899995803833, 14.4399995803833, 15.210000038146973, 16.0, 16.809999465942383, 17.639999389648438, 18.489999771118164, 19.360000610351562, 20.25, 21.15999984741211, 22.09000015258789, 23.040000915527344, 24.010000228881836, 25.0, 26.010000228881836, 27.040000915527344, 28.09000015258789, 29.15999984741211, 30.25, 31.360000610351562, 32.4900016784668, 33.63999938964844, 34.810001373291016, 36.0, 37.209999084472656, 38.439998626708984, 39.689998626708984, 40.959999084472656, 42.25, 43.560001373291016, 44.88999938964844, 46.2400016784668, 47.61000061035156, 49.0, 50.40999984741211, 51.84000015258789, 53.290000915527344, 54.7599983215332, 56.25, 57.7599983215332, 59.290000915527344, 60.84000015258789, 62.40999984741211, 64.0, 65.61000061035156, 67.23999786376953, 68.88999938964844, 70.55999755859375, 72.25, 73.95999908447266, 75.69000244140625, 77.44000244140625, 79.20999908447266, 81.0, 82.80999755859375, 84.63999938964844, 86.48999786376953, 88.36000061035156, 90.25, 92.16000366210938, 94.08999633789062, 96.04000091552734, 98.01000213623047, 100.0]
+</pre><figcaption class="caption-bottom" data-location="4.3" data-localized-kind="図">&quot;嘘グラフその2&quot;</figcaption></figure><p>また、[???] を [???] で Quarkdown 変換し第1、第2主成分による2次元平面へ射影することで <span class="cross-reference" data-location="4.4" data-localized-kind="図"></span> が得られた。</p><figure id="figure-4.4"><img src="media/logo@834787574.png" alt="Quarkdown" title="Quarkdown icon" style="width: 50.0%;" /><figcaption class="caption-bottom" data-location="4.4" data-localized-kind="図">Quarkdown icon</figcaption></figure><div class="page-break" data-hidden=""></div><h1 id="sec:discussion" data-location="5">考察</h1><p>本手法は勾配の大きさに応じて学習率を調整するため、初期段階では大きく、収束近傍では小さくなる。
+これにより、探索効率と安定性の両立が実現できた。
+一方で、勾配が極端に小さい領域では更新幅が小さくなりすぎる問題が見られた。
+この点は、下限値を設定することで改善可能である。</p><p>また、Adam などの手法が勾配の移動平均を用いるのに対し、本手法は勾配ノルムに基づく単純な調整のみを行うため、計算コストが軽いという利点がある。
+今後は、ハイブリッド法や確率的勾配降下（SGD）との組み合わせを検討する。</p><div class="page-break" data-hidden=""></div><h1 id="sec:conclusion" data-location="6">結論</h1><p>本研究では、勾配ノルムに基づく動的学習率調整法を提案した。
+理論的解析および数値実験の結果、提案手法は収束の安定性と速度の両面で従来法を上回ることが確認された。
+今後は、大規模データセットへの応用やハイパーパラメータ自動調整への拡張を行う予定である。</p><div class="page-break" data-hidden=""></div><h1 id="謝辞" data-decorative="">謝辞</h1><p>本研究を進めるにあたり、指導をいただいた佐藤花子教授、ならびに実験協力をいただいた研究室の皆様に感謝申し上げる。</p><div class="page-break" data-hidden=""></div><h1 id="参考文献">参考文献</h1><div class="bibliography bibliography-ieeetr"><span class="bibliography-entry-label">[1]</span><span class="bibliography-entry-content">P. Cohen, “The independence of the continuum hypothesis,” <em>Proceedings of the National Academy of Sciences</em>, vol. 50, no. 6, pp. 1143–1148, 1963.</span><span class="bibliography-entry-label">[2]</span><span class="bibliography-entry-content">L. Susskind, and G. Hrabovsky, <em>Classical mechanics: the theoretical minimum</em>. New York, NY: Penguin Random House, 2014.</span><span class="bibliography-entry-label">[3]</span><span class="bibliography-entry-content">L. Urry, M. Cain, S. Wasserman, P. Minorsky, and J. Reece, “Photosynthesis.” Campbell Biology. Pearson. New York, NY. 187–221. 2016.</span><span class="bibliography-entry-label">[4]</span><span class="bibliography-entry-content">P. Holleis, M. Wagner, and J. Koolwaaij, “Studying mobile context-aware social services in the wild.” Proc. of the 6th Nordic Conf. on Human-Computer Interaction. NordiCHI. 207–216. ACM. New York, NY. 2010.</span><span class="bibliography-entry-label">[5]</span><span class="bibliography-entry-content">R. Team, “R: A Language and Environment for Statistical Computing.” R Foundation for Statistical Computing. Vienna, Austria. 2018.</span><span class="bibliography-entry-label">[6]</span><span class="bibliography-entry-content">J. Tang, “Spin structure of the nucleon in the asymptotic limit.” Massachusetts Institute of Technology. Cambridge, MA. September. 1996.</span><span class="bibliography-entry-label">[7]</span><span class="bibliography-entry-content">NASA, “Pluto: The 'Other' Red Planet.” https://www.nasa.gov/nh/pluto-the-other-red-planet. Accessed: 2018-12-06. 2015.</span></div><div class="page-break" data-hidden=""></div><h1 id="付録" data-decorative="">付録</h1>
+</body>
+</html>

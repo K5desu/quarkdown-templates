@@ -1,0 +1,20 @@
+{
+  "name": "quarkdown-templates",
+  "version": "1.0.0",
+  "description": "このリポジトリは、[Quarkdown](https://github.com/iamgio/quarkdown) のテンプレート集です。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K5desu/quarkdown-templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K5desu/quarkdown-templates/issues"
+  },
+  "homepage": "https://github.com/K5desu/quarkdown-templates#readme"
+}
