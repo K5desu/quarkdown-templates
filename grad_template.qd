@@ -20,13 +20,16 @@
     .quarkdown .cross-reference[data-localized-kind="セクション"][data-location*="."]::before {
         content: "第" attr(data-location) "節" !important;
     }
+    .textcenter {
+        text-align: center;
+    }
 
 .var {author} {田代 圭梧}
 .var {affiliation} {龍谷大学先端理工学部 数理・情報科学課程}
 .var {id} {Y220010}
-.var {maintitle1} {Notionデータを対象とした}
-.var {maintitle2} {ベクトル検索システム}
-.var {maintitle3} {「NotionFinder」の開発}
+.var {maintitle} {Notionデータを対象とした  
+                    ベクトル検索システム  
+                    「NotionFinder」の開発}
 .var {subtitle}  {}
 
 <!-- ナンバリング -->
@@ -43,9 +46,7 @@
     .column cross:{center}
         .text {2026年度 卒業論文}
         .whitespace height:{10mm}
-        .text {.maintitle1} size:{large} weight:{bold}
-        .text {.maintitle2} size:{large} weight:{bold}
-        .text {.maintitle3} size:{large} weight:{bold}
+        .text {.maintitle} size:{large} weight:{bold} classname:{textcenter} 
         .text {.subtitle::otherwise {}} size:{normal}
     .whitespace height:{10cm}
     .column cross:{center} gap:{3mm}
@@ -59,9 +60,7 @@
     .column cross:{center}
         .text {2026年度 卒業論文} size:{normal}
         .whitespace height:{5mm}
-        .text {.maintitle1} size:{large} weight:{bold}
-        .text {.maintitle2} size:{large} weight:{bold}
-        .text {.maintitle3} size:{large} weight:{bold}
+        .text {.maintitle} size:{large} weight:{bold} classname:{textcenter}
         .text {.subtitle::otherwise {}}
     .column cross:{end}
         .text {.affiliation}
